@@ -1,5 +1,6 @@
 import Sidebar from "../ui/dashboard/sidebar/sidebar";
 import Navbar from "../ui/dashboard/navbar/navbar";
+import Footer from "../ui/footer/footer";
 
 export default function Layout({
   children,
@@ -14,6 +15,7 @@ export default function Layout({
       <div className="flex-[4] p-5">
         <Navbar />
         {children}
+        <Footer />
       </div>
     </div>
   );
