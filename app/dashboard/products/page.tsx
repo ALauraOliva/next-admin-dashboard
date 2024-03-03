@@ -45,7 +45,7 @@ function Products() {
             <td className="p-3">active</td>
             <td className="p-3">
               <div className="flex gap-3">
-                <Link href="/">
+                <Link href="/dashboard/products/test">
                   <button className="py-1 px-3 rounded-md cursor-pointer bg-teal-700">
                     View
                   </button>
